@@ -65,6 +65,16 @@ SinglyLinkedList.prototype.nodeCount = function() {
   return count;
 }
 
+SinglyLinkedList.prototype.circle = function(element) {
+  var first = this.find(element);
+  var last = this.head;
+
+  while(last.next !== null) {
+    last = last.next
+  }
+  last.next = first;
+}
+
 module.exports = SinglyLinkedList;
 
 
