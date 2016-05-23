@@ -63,21 +63,3 @@ sll.add(-200);
 
 sorted = mergeSortLinkedList(sll);
 sorted.display();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

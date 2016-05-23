@@ -2,7 +2,7 @@ var Node = require("./node.js");
 
 var SinglyLinkedList = function() {
   //singly list has a deafult node of head
-  this.head = new Node("head")
+  this.head = new Node("head");
 }
 
 SinglyLinkedList.prototype.add = function(element) {
@@ -76,8 +76,3 @@ SinglyLinkedList.prototype.circle = function(element) {
 }
 
 module.exports = SinglyLinkedList;
-
-
-
-
-

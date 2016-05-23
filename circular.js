@@ -68,7 +68,3 @@ console.log(isCircular(sll));
 console.log(isCircular(sll2));
 console.log(lengthCircle(sll));
 console.log(lengthCircle(sll2));
-
-
-
-
