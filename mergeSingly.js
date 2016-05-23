@@ -13,12 +13,12 @@ function mergeSortLinkedList(sll) {
     if (i < middle) {
       left.add(current.element);
     } else {
-      right.add(current.element)
+      right.add(current.element);
     }
     current = current.next;
     i++;
   }
-  return mergeLinkedLists(mergeSortLinkedList(left), mergeSortLinkedList(right))
+  return mergeLinkedLists(mergeSortLinkedList(left), mergeSortLinkedList(right));
 }
 
 function mergeLinkedLists(left, right) {
@@ -38,17 +38,17 @@ function mergeLinkedLists(left, right) {
     var current = left.head.next;
     while(current !== null) {
       output.add(current.element);
-      current = current.next
+      current = current.next;
     }
   } 
   if(right.nodeCount() > 0) {
     var current = right.head.next;
     while(current !== null) {
       output.add(current.element);
-      current = current.next
+      current = current.next;
     }
   }
-  return output
+  return output;
 }
 
 sll = new SinglyLinkedList();
